@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Made In Ceará Fish</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="topo">
+        <img src="logo-ceara.png" alt="logo" class="logo">
+        <button class="cart-button" onclick="openCartModal()">
+            <ion-icon name="cart"></ion-icon>
+            <span id="cartCounter">0</span>
+        </button>
+    </header>
+<!--BANNER-->  
+    <div class="banner">
+        <a href="atacado.html">
+        <img src="ceara-banner.jpg" alt="Banner">
+    </a>
+    </div>
+<!--BANNER--> 
+
+<!--BARRA DE PESQUISA-->
+<div class="barra-de-pesquisa">
+    <input type="text" id="pesquisa" placeholder="PROCURAR" autocomplete="off">
+    <i class="fas fa-search"></i> <!-- Ícone da lupa -->
+</div>
+<!--BARRA DE PESQUISA-->
+
+<!--PRODUTOS-->
+<div class="corpo-produtos">
+    <h2 class="texto">Peixes Nacionais</h2>
+    <div class="linha">
+
+
+        <div class="coluna">
+            <img src="peixes/anjo-siliaris.jpg" alt="peixe">
+            <h4>Anjo Ciliaris</h4>
+            <h6>(Holacanthus ciliaris)</h6>
+            <div class="estrelas">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+            </div>
+            <p>R$ 56,67</p>
+        </div>
+
+        <div class="coluna">
+            <img src="peixes/anjo-tricolor.jpg" alt="peixe">
+        
+            <h6>(Holacanthus tricolor)</h6>
+            <div class="estrelas">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+            </div>
+            <p>R$ 56,67</p>
+        </div>
+
+        <div class="coluna">
+            <img src="peixes/anjo-paru.jpg" alt="peixe">
+            <h4>Anjo Paru</h4>
+            <h6>(Pomacanthus paru)</h6>
+            <div class="estrelas">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+            </div>
+            <p>R$ 34,25</p>
+        </div>
+
+        <div class="coluna">
+            <img src="peixes/anjo-centropyge.jpeg" alt="peixe">
+            <h4>Anjo Centropyge</h4>
+            <h6>(Centropyge aurantonotus)</h6>
+            <div class="estrelas">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon na    <h4>Anjo Tricolor</h4>me="star"></ion-icon>
+            </div>
+            <p>R$ 56,67</p>
+        </div>
+
+        <div class="coluna">
+            <img src="peixes/equetus.jpg" alt="peixe">
+            <h4>Equetus</h4>
+            <h6>(Pereques Acuminatus)</h6>
+            <div class="estrelas">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+            </div>
+            <p>R$ 16,25</p>
+        </div>
+
+        <div class="coluna">
+            <img src="peixes/apogon.jpg" alt="peixe">
+            <h4>Apogon</h4>
+            <h6>(Apogon Americanus)</h6>
+            <div class="estrelas">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+            </div>
+            <p>R$ 26,75</p>
+        </div>
+
+    
+    </div>
+
+    
+</div>
+
+<div class="corpo-produtos">
+    <h2 class="texto">Invertebrados</h2>
+    <div class="linha">
+
+
+        <div class="coluna">
+            <img src="invertebrados/polvo-pigmeu.jpeg" alt="invertebrados">
+            <h4>Polvo Pigmeu</h4>
+            <h6>(Octopus Joubini)</h6>
+            <div class="estrelas">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+            </div>
+            <p>R$ 27,00</p>
+        </div>
+
+
+
+        
+        <div class="coluna">
+            <img src="invertebrados/moreia-mirictis.jpg" alt="invertebrados">
+            <h4>Moreia Miricts</h4>
+            <h6>(Myrichthys ocellatus)</h6>
+            <div class="estrelas">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+            </div>
+            <p>R$ 26,00</p>
+        </div>
+
+        <div class="coluna">
+            <img src="invertebrados/camarao-seyy.jpg" alt="invertebrados">
+            <h4>Camarão Sexyshrimps</h4>
+            <h6>(Thor amboinensis)</h6>
+            <div class="estrelas">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+            </div>
+            <p>R$ 56,75</p>
+        </div>
+
+        <div class="coluna">
+            <img src="invertebrados/caranguejo-aranha.png" alt="invertebrados">
+            <h4>Caranguejo Aranha</h4>
+            <h6>(Stenorhynchus seticornis)</h6>
+            <div class="estrelas">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+            </div>
+            <p>R$ 19,25</p>
+        </div>
+    
+    </div>
+
+    
+</div>
+
+<!--PRODUTOS-->
+
+<!--WHATSAPP-->
+    <a href="https://wa.me/5585991291645?text=Fala Wesley,%20tenho%20algumas%20dúvidas" class="whatsapp" target="_blank" rel="noopener">
+        <img src="whatsapplogo.png" alt="WhatsApp">
+    </a>
+<!--WHATSAPP-->
+
+
+<footer>
+    <span class="seta" onclick="scrollToTop()">︿</span>
+</footer>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
